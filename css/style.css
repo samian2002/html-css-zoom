@@ -13,7 +13,6 @@ body{
 
 header{
     height: 6rem;
-    background-color: white;
     padding: 0.5rem;
     text-align: right;
 
@@ -28,8 +27,6 @@ header button{
 
 main{
     height: calc(100vh - 10rem);
-    background-color: aqua;
-
 }
 
 .card-container{
@@ -72,6 +69,19 @@ main{
 
 footer{
     height: 4rem;
-    background-color: blueviolet;
+    background-color: #222222;
 }
 
+.mic > i{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.mic > p{
+    margin-left: 5px;
+}
+
+.mic{
+    margin-left: 10px;
+}
