@@ -224,34 +224,15 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer-end{
     height: 4rem;
     width: 8rem;
-    background-color: aqua;
+    background-color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-end > p{
+    color: red;
 }
