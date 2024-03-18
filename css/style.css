@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    height: 6rem;
+    height: 5rem;
     padding: 0.5rem;
     text-align: right;
 
@@ -32,7 +32,6 @@ main{
 .card-container{
     display: flex;
     flex-wrap: wrap;
-    width: 1800px;
     margin: 0 auto;
     justify-content: center;
     padding-top: 0.5rem;
@@ -49,8 +48,8 @@ main{
 
 
 .card{
-    width: 15rem;
-    height: 10rem;
+    width: 12rem;
+    height: 8rem;
 }
 
 .name{
@@ -62,7 +61,7 @@ main{
     background-color: grey;
     font-size: 10px;
     padding: 5px;
-    top: 140px;
+    top: 108px;
 }
 
 
@@ -72,16 +71,54 @@ footer{
     background-color: #222222;
 }
 
-.mic > i{
-    font-size: 1.5rem;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.mic > p{
-    margin-left: 5px;
+.footer-left{
+    height: 4rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
 }
 
 .mic{
-    margin-left: 10px;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 10px;
+}
+
+.mic > span{
+    position: absolute;
+    top: 40px;
+    font-size: 12px;
+}
+
+.webcam > span{
+    position: absolute;
+    top: 40px;
+    font-size: 12px;
+}
+
+.webcam{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 10px;
+}
+
+.mic > i{
+    font-size: 1.9rem;
+    
+}
+
+.webcam > i{
+    font-size: 1.9rem;
+}
+
+.up{
+    position: relative;
+    top: 15px;
+    font-size: 15px;
 }
