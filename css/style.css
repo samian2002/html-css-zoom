@@ -69,6 +69,8 @@ main{
 footer{
     height: 4rem;
     background-color: #222222;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-left{
@@ -89,14 +91,14 @@ footer{
 
 .mic > span{
     position: absolute;
-    top: 40px;
-    font-size: 12px;
+    top: 42px;
+    font-size: 10px;
 }
 
 .webcam > span{
     position: absolute;
-    top: 40px;
-    font-size: 12px;
+    top: 42px;
+    font-size: 10px;
 }
 
 .webcam{
@@ -121,4 +123,135 @@ footer{
     position: relative;
     top: 15px;
     font-size: 15px;
+}
+
+.footer-center{
+    height: 4rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 10px;
+}
+
+.invite > i{
+    font-size: 1.9rem;
+}
+
+.invite > span{
+    position: absolute;
+    top: 42px;
+    font-size: 10px;
+    left: 0;
+}
+
+.participants > i{
+    font-size: 1.9rem;
+}
+
+.participants > span{
+    position: absolute;
+    top: 42px;
+    font-size: 10px;
+    left: 62px;
+}
+
+.security > i{
+    font-size: 1.9rem;
+}
+
+.security > span{
+    position: absolute;
+    top: 42px;
+    font-size: 10px;
+    left: 167px;
+}
+
+.share > i{
+    font-size: 1.9rem;
+    color: rgb(0, 255, 21);
+}
+
+.share > span{
+    position: absolute;
+    top: 42px;
+    font-size: 10px;
+    left: 230px;
+}
+
+.chat > i{
+    font-size: 1.9rem;
+}
+
+.chat > span{
+    position: absolute;
+    top: 42px;
+    font-size: 10px;
+    left: 385px;
+}
+
+.record > i{
+    font-size: 1.9rem;
+}
+
+.record > span{
+    position: absolute;
+    top: 42px;
+    font-size: 10px;
+    left: 461px;
+}
+
+.rooms > i{
+    font-size: 1.9rem;
+}
+
+.rooms > span{
+    position: absolute;
+    top: 42px;
+    font-size: 10px;
+    left: 520px;
+}
+
+.more > i{
+    font-size: 1.9rem;
+}
+
+.more > span{
+    position: absolute;
+    top: 42px;
+    font-size: 10px;
+    left: 616px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-end{
+    height: 4rem;
+    width: 8rem;
+    background-color: aqua;
 }
